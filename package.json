@@ -4,8 +4,8 @@
   "description": "sway in a worker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "test": "karma start --config ./karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,16 @@
   },
   "homepage": "https://github.com/mohsen1/sway-worker#readme",
   "devDependencies": {
+    "expect.js": "^0.3.1",
     "json-loader": "0.5.4",
-    "sway": "0.6.0",
-    "webpack": "2.1.0-beta.2"
+    "karma": "^0.13.21",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.4",
+    "sway": "ponelat/sway",
+    "webpack": "^2.1.0-beta.4",
+    "worker-loader": "^0.7.0"
   }
 }
