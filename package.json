@@ -23,7 +23,7 @@
   "homepage": "https://github.com/mohsen1/sway-worker#readme",
   "devDependencies": {
     "json-loader": "0.5.4",
-    "sway": "0.6.0",
+    "sway": "ponelat/sway",
     "webpack": "2.1.0-beta.2"
   }
 }
